@@ -6,10 +6,8 @@ word_list = favorite_fruits
 
 word = random.choice(word_list)
 
-print(word)
+print("Randomly chosen word:", word)
 
 guess = input("Enter a single letter: ")
 
-print("You guessed:", guess)
-
-user_input = input("Enter a single letter: ")
+print("User's guess:", guess)
