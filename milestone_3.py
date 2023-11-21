@@ -18,7 +18,7 @@ def is_valid_guess(guess):
 
 def check_guess(word, guess):
     if guess in word.lower():
-        print(f"Good guess! '{guess}' is in the word.")
+        print(f"Good guess! '{guess}' is in the list.")
         return True
     else:
         print(f"Sorry, '{guess}' is not in the list. Please try again.")
