@@ -21,10 +21,8 @@ print("Randomly chosen word:", word)
 guess = input("Enter a single letter: ")
 
  if is_valid_guess(guess):
-        # Print a message for a valid input
         print("Good guess!")
     else:
-        # Print a message for an invalid input
         print("Oops! That is not a valid input.")
 
 if __name__ == "__main__":
